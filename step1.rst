@@ -4,16 +4,86 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-[Platform] Major Feature N
-------------------------------
+[Platform] Major Functionality N
+----------------------------------
+.. #### Comment: A major functionality is a heading for one or more functions
+   grouped together from the point of view of the user. If you were writing a
+   book (manual?) on the platform, these would be the headings.
 
-.. #### Comment: short introductory text
+   The first major recommended functionality are user settings and prefferences
+   Next are any important groupings, and these may correspond to major buttons
+   on a dashboard or user interface.
+
+Short introductory text here.
+
+[Optional Photo]
 
 ----
 
+[Platform] Sub-functionality 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Short introductory text here.
+
+[Platform] menu, panel, or console
+````````````````````````````````````
+[Optional Photo]
+
+**Major Features**
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+**Menu or panel heading**
+
+Introductory text
+
+.. list-table::
+    :header-rows: 1
+
+    * - Menu heading
+      - Functionality
+    * - Menu title
+      - Function explaination
+
+.. admonition:: Helpful Tips
+
+    Helpful tip
+
 ----
 
-In this tour, we
+[Platform] Sub-functionality n
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Short introductory text here.
+
+[Platform] menu, panel, or console
+````````````````````````````````````
+[Optional Photo]
+
+**Major Features**
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+**Menu or panel heading**
+
+Introductory text
+
+.. list-table::
+    :header-rows: 1
+
+    * - Menu heading
+      - Functionality
+    * - Menu title
+      - Function explaination
+
+.. admonition:: Helpful Tips
+
+    Helpful tip
 
 
 ----
@@ -38,6 +108,7 @@ In this tour, we
 
 - On Github: `Repo link <FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_>`_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+- Live chat/help: Click on the |intercom| on the bottom-right of the page for questions on documentation
 
 ----
 
@@ -52,3 +123,6 @@ In this tour, we
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+.. |intercom| image:: ./img/intercom.png
+    :width: 25
+    :height: 25

@@ -4,37 +4,53 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Title
--------------
+[Platform] FAQs
+-------------------
 
-.. #### Comment: short description
+General FAQs
+~~~~~~~~~~~~~
 
-**Some things to remember about the platoform**
+These are some general questions about the [platform]:
 
+**Question Title?**
 
-- reminder one
-- reminder two
-
+**Answer:**
 
 ----
 
-*Descriptive title - refrence platform/tool name for searchability*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Question Title?**
 
-  1.
+**Answer:**
 
-  2.
+----
 
-..
-	#### Comment: Suggested style guide:
-	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
-	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
-	(Username > analyses > *output*)
-	3. Buttons and/or keywords in bold: Click on **Apps** OR select **Arabidopsis**
-	4. Primary menu titles in double quotes: Under "Input" choose...
-	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
-	####
+**Question Title?**
 
+**Answer:**
+
+----
+
+
+How do I ...
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+These are some common tasks you may wish to do with [platform]:
+
+
+**How do I ...**
+
+**Answer**
+
+----
+
+**How do I ...**
+
+**Answer**
+
+----
+
+**How do I ...**
+
+**Answer**
 
 ----
 
@@ -42,6 +58,7 @@ Section Title
 
 - On Github: `Repo link <FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_>`_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+- Live chat/help: Click on the |intercom| on the bottom-right of the page for questions on documentation
 
 ----
 
@@ -56,3 +73,6 @@ Section Title
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+.. |intercom| image:: ./img/intercom.png
+    :width: 25
+    :height: 25

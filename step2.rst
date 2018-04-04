@@ -4,29 +4,91 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-Section Title
--------------
+[Platform] Last Major Functionality N
+---------------------------------------
+.. #### Comment: A major functionality is a heading for one or more functions
+   grouped together from the point of view of the user. If you were writing a
+   book (manual?) on the platform, these would be the headings.
 
-.. #### Comment: short description
+   The first major recommended functionality are user settings and prefferences
+   Next are any important groupings, and these may correspond to major buttons
+   on a dashboard or user interface.
 
-**Some things to remember about the platoform**
+Short introductory text here.
 
-
-- reminder one
-- reminder two
-
+[Optional Photo]
 
 ----
 
-*Descriptive title - refrence platform/tool name for searchability*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Platform] Sub-functionality 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  1.
+Short introductory text here.
 
-  2.
+[Platform] menu, panel, or console
+````````````````````````````````````
+[Optional Photo]
 
-..
-	#### Comment: Suggested style guide:
+**Major Features**
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+**Menu or panel heading**
+
+Introductory text
+
+.. list-table::
+    :header-rows: 1
+
+    * - Menu heading
+      - Functionality
+    * - Menu title
+      - Function explaination
+
+.. admonition:: Helpful Tips
+
+    Helpful tip
+
+----
+
+[Platform] Sub-functionality n
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Short introductory text here.
+
+[Platform] menu, panel, or console
+````````````````````````````````````
+[Optional Photo]
+
+**Major Features**
+
+- Feature 1
+- Feature 2
+- Feature 3
+
+**Menu or panel heading**
+
+Introductory text
+
+.. list-table::
+    :header-rows: 1
+
+    * - Menu heading
+      - Functionality
+    * - Menu title
+      - Function explaination
+
+.. admonition:: Helpful Tips
+
+    Helpful tip
+
+
+
+
+.. #### Comment: Suggested style guide:
 	1. Steps begin with a verb or preposition: Click on... OR Under the "Results Menu"
 	2. Locations of files listed parenthetically, separated by carets, ultimate object in bold
 	(Username > analyses > *output*)
@@ -67,6 +129,7 @@ Post your question to the user forum:
 
 - On Github: `Repo link <FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_>`_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+- Live chat/help: Click on the |intercom| on the bottom-right of the page for questions on documentation
 
 ----
 
@@ -78,3 +141,6 @@ Post your question to the user forum:
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+.. |intercom| image:: ./img/intercom.png
+    :width: 25
+    :height: 25

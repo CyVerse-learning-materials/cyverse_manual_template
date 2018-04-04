@@ -18,8 +18,8 @@ Welcome to [Platform]!
 	:maxdepth: 2
 
 	[Platform] Manual home <self>
-	[Platform] Major feature n <step1.rst>
-	[Platform] Last major feature <step2.rst>
+	[Platform] Major functionality n <step1.rst>
+	[Platform] Last major functionality <step2.rst>
 	[Platform] FAQs <faq.rst>
 
 ..
@@ -130,15 +130,16 @@ Downloads, access, and services
       - Preparation/Notes
       - Link/Download
     * - CyVerse account
-      - You will need a CyVerse account to complete this exercise
+      - You will need a CyVerse account
       - `Register <https://user.cyverse.org/>`_
 
----
+----
 
 **Fix or improve this documentation**
 
 - On Github: `Repo link <FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_>`_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+- Live chat/help: Click on the |intercom| on the bottom-right of the page for questions on documentation
 
 ----
 
@@ -153,3 +154,6 @@ Downloads, access, and services
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+.. |intercom| image:: ./img/intercom.png
+    :width: 25
+    :height: 25
