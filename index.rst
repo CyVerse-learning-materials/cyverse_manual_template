@@ -33,10 +33,10 @@ Welcome to [Platform]!
 	:maxdepth: 2
 
 	Manual home <self>
-	Platform Dashboard/Landing Page <step1.rst>
+	Platform Quick Tour <step1.rst>
 	Major feature n <step2.rst>
 	Last major feature <step3.rst>
-	Platform FAQs <faq.rst>
+	[Platform] FAQs <faq.rst>
 
 ..
 	#### Comment: This manual has multiple pages. The table of contents assumes

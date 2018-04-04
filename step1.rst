@@ -4,15 +4,14 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-[Platform] Dashboard/Landing Page
+[Platform] Quick Tour
 ------------------------------------
 
-.. #### Comment: short description
+.. #### Comment: short introductory text
 
 ----
-
-*[Platform] title - refrence platform/tool name for searchability*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. #### Comment: Each platform should have a quick slide show or possibly video
+   tour. Slide shows should be HTML5, videos from YouTube
 
 .. raw:: html
 
@@ -23,9 +22,39 @@
         height: 100%;"></iframe>
     </div>
 
-  1.
+----
 
-  2.
+[Platform] Release Notes
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. raw:: html
+    <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+  <div class="container">
+    <div class="panel-group">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" href="#collapse1">Release 1.0</a>
+          </h4>
+        </div>
+        <div id="collapse1" class="panel-collapse collapse">
+          <div class="panel-body">Panel Body</div>
+          <div class="panel-footer">Panel Footer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </body>
+  </html>
 
 ..
 	#### Comment: Suggested style guide:
