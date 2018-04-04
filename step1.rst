@@ -4,57 +4,21 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 
-[Platform] Quick Tour
-------------------------------------
+[Platform] Major Feature N
+------------------------------
 
 .. #### Comment: short introductory text
 
 ----
-.. #### Comment: Each platform should have a quick slide show or possibly video
-   tour. Slide shows should be HTML5, videos from YouTube
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;
-    overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="./_static/slides/index.html" frameborder="0" allowfullscreen
-        style="position: absolute; top: 0; left: 0; width: 100%;
-        height: 100%;"></iframe>
-    </div>
 
 ----
 
-[Platform] Release Notes
-~~~~~~~~~~~~~~~~~~~~~~~~~
+In this tour, we
 
-.. raw:: html
-    <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  </head>
-  <body>
 
-  <div class="container">
-    <div class="panel-group">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapse1">Release 1.0</a>
-          </h4>
-        </div>
-        <div id="collapse1" class="panel-collapse collapse">
-          <div class="panel-body">Panel Body</div>
-          <div class="panel-footer">Panel Footer</div>
-        </div>
-      </div>
-    </div>
-  </div>
+----
 
-  </body>
-  </html>
+
 
 ..
 	#### Comment: Suggested style guide:

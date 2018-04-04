@@ -35,6 +35,31 @@ Section Title
 	5. Secondary menu titles or headers in single quotes: For the 'Select Input' option choose...
 	####
 
+----
+
+*Summary*
+~~~~~~~~~
+
+..
+    Summary
+
+**Next Steps:**
+
+- Next step one
+- Next step two
+
+More help and additional information
+`````````````````````````````````````
+
+..
+    Short description and links to any reading materials
+
+Search for an answer:
+    `CyVerse Learning Center <http://learning.cyverse.org>`_ or
+    `CyVerse Wiki <https://wiki.cyverse.org>`_
+
+Post your question to the user forum:
+    `Ask CyVerse <http://ask.iplantcollaborative.org/questions>`_
 
 ----
 
@@ -44,9 +69,6 @@ Section Title
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
-
-  |Home_Icon|_
-  `Learning Center Home <http://learning.cyverse.org/>`_
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500

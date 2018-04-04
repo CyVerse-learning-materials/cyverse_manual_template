@@ -14,6 +14,40 @@ Welcome to [Platform]!
 
 ----
 
+.. toctree::
+	:maxdepth: 2
+
+	[Platform] Manual home <self>
+	[Platform] Major feature n <step1.rst>
+	[Platform] Last major feature <step2.rst>
+	[Platform] FAQs <faq.rst>
+
+..
+	#### Comment: This manual has multiple pages. The table of contents assumes
+	you have an additional page called 'Platform Dashboard/Landing Page' with
+	content located in 'step1.rst'. Copy 'step2.rst' as many times as needed
+	for each major feature you using, and increment the number in your filename.
+	Finally, make sure that the last major feature uses the 'step3.rst' template,
+	as it has slightly different formatting to end the document.
+	Edit these titles and filenames as needed. Finally use 'faq.rst' to
+	create your list of Frequently Asked Questions. ####
+----
+
+.. #### Comment: Each platform should have a quick slide show or possibly video
+   tour. Slide shows should be HTML5, videos from YouTube
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;
+    overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="./_static/slides/index.html" frameborder="0" allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%;
+        height: 100%;"></iframe>
+    </div>
+
+----
+
+
 5 Quick FYIs about [Platform]:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -26,28 +60,57 @@ Welcome to [Platform]!
 - **How**: To use the platform
 - **Where**: Platform URL
 
-
 ----
 
-.. toctree::
-	:maxdepth: 2
+[Platform] Release Notes
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-	Manual home <self>
-	Platform Quick Tour <step1.rst>
-	Major feature n <step2.rst>
-	Last major feature <step3.rst>
-	[Platform] FAQs <faq.rst>
+.. raw:: html
+    <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
 
-..
-	#### Comment: This manual has multiple pages. The table of contents assumes
-	you have an additional page called 'Platform Dashboard/Landing Page' with
-	content located in 'step1.rst'. Copy 'step2.rst' as many times as needed
-	for each major feature you using, and increment the number in your filename.
-	Finally, make sure that the last major feature uses the 'step3.rst' template,
-	as it has slightly different formatting to end the document.
-	Edit these titles and filenames as needed. Finally use 'faq.rst' to
-	create your list of Frequently Asked Questions. ####
+    <div class="container" style="width:100%;">
+      <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">MMM YYYY v #.#.#</a>
+            </h4>
+          </div>
+          <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">Release notes</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">MMM YYYY v #.#.#</a>
+            </h4>
+          </div>
+          <div id="collapse2" class="panel-collapse collapse">
+            <div class="panel-body">Release notes</div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="panel-title">
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">MMM YYYY v #.#.#</a>
+            </h4>
+          </div>
+          <div id="collapse3" class="panel-collapse collapse">
+            <div class="panel-body">Release notes</div>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    </body>
+    </html>
+
+----
 
 Prerequisites
 -------------
