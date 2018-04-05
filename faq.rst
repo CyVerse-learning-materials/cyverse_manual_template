@@ -62,8 +62,8 @@ These are some common tasks you may wish to do with [platform]:
 
 ----
 
-  |Home_Icon|_
-  `Learning Center Home <http://learning.cyverse.org/>`_
+|Home_Icon|_
+`Learning Center Home <http://learning.cyverse.org/>`_
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500

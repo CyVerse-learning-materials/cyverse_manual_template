@@ -133,6 +133,9 @@ Post your question to the user forum:
 
 ----
 
+|Home_Icon|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
     :height: 100

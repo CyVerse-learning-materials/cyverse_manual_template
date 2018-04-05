@@ -144,6 +144,7 @@ Downloads, access, and services
 ----
 
 |Home_Icon|_
+
 `Learning Center Home <http://learning.cyverse.org/>`__
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
