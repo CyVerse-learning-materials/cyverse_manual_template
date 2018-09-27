@@ -1,3 +1,4 @@
+.. include:: cyverse_rst_defined_substitutions.txt
 |CyVerse logo|_
 
 |Home_Icon|_
@@ -10,7 +11,7 @@
    grouped together from the point of view of the user. If you were writing a
    book (manual?) on the platform, these would be the headings.
 
-   The first major recommended functionality are user settings and prefferences
+   The first major recommended functionality are user settings and preferences
    Next are any important groupings, and these may correspond to major buttons
    on a dashboard or user interface.
 
@@ -45,7 +46,7 @@ Introductory text
     * - Menu heading
       - Functionality
     * - Menu title
-      - Function explaination
+      - Function explanation
 
 .. admonition:: Helpful Tips
 
@@ -79,7 +80,7 @@ Introductory text
     * - Menu heading
       - Functionality
     * - Menu title
-      - Function explaination
+      - Function explanation
 
 .. admonition:: Helpful Tips
 
@@ -135,15 +136,3 @@ Post your question to the user forum:
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
-
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
-    :width: 500
-    :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
-.. |Home_Icon| image:: ./img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
-.. |intercom| image:: ./img/intercom.png
-    :width: 25
-    :height: 25

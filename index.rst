@@ -1,3 +1,4 @@
+.. include:: cyverse_rst_defined_substitutions.txt
 |CyVerse logo|_
 
 |Home_Icon|_
@@ -21,6 +22,7 @@ Welcome to [Platform]!
 	[Platform] Major functionality n <step1.rst>
 	[Platform] Last major functionality <step2.rst>
 	[Platform] FAQs <faq.rst>
+	Delete this example guide page <example_directives_delete.rst>
 
 ..
 	#### Comment: This manual has multiple pages. The table of contents assumes
@@ -131,7 +133,7 @@ Downloads, access, and services
       - Link/Download
     * - CyVerse account
       - You will need a CyVerse account
-      - `Register <https://user.cyverse.org/>`_
+      - |CyVerse User Portal|
 
 ----
 
@@ -146,15 +148,3 @@ Downloads, access, and services
 |Home_Icon|_
 
 `Learning Center Home <http://learning.cyverse.org/>`__
-
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
-    :width: 500
-    :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
-.. |Home_Icon| image:: ./img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
-.. |intercom| image:: ./img/intercom.png
-    :width: 25
-    :height: 25
