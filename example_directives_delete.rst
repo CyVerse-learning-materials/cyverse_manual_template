@@ -9,15 +9,16 @@
 STYLE TIPS - DELETE THIS PAGE BEFORE PUBLISHING
 --------------------------------------------------
 
-  .. tip::
-       Check the code (.rst) source to see how these examples are written
-       in restructured text.
+    .. tip::
+
+         Check the code (.rst) source to see how these examples are written
+         in restructured text.
 
 
 .. #### Comment: short description
 
-Writing your documentation using sample data
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Many of the examples Writing your documentation using sample data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Where possible, you want write documentation instructions to be general enough
 for users can follow along with their own data. To help do this, you can use
@@ -135,3 +136,36 @@ Images should have a 1px black border:
 .. |Right-size kitten w border| image:: ./img/kitten_w_border.png
     :width: 400
     :height: 350
+
+
+.. Comment: Place Images Below This Line
+   use :width: to give a desired width for your image
+   use :height: to give a desired height for your image
+   replace the image name/location and URL if hyperlinked
+
+
+ .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
+    :width: 500
+    :height: 100
+ .. _CyVerse logo: http://learning.cyverse.org/
+
+ .. |Static image| image:: ./img/IMAGENAME.png
+    :width: 25
+    :height: 25
+
+
+
+.. Comment: Place URLS Below This Line
+
+   # Use this example to ensure that links open in new tabs, avoiding
+   # forcing users to leave the document, and making it easy to update links
+   # In a single place in this document
+
+   .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
+
+      <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>

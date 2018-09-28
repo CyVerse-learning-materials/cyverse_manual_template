@@ -88,6 +88,18 @@
 
    <a href="https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html" target="blank">SciApps Guide</a>
 
+.. |Ask CyVerse| raw:: html
+
+   <a href="http://ask.iplantcollaborative.org/questions" target="blank">Ask CyVerse</a>
+
+.. |CyVerse Learning Center| raw:: html
+
+   <a href="http://learning.cyverse.org" target="blank">CyVerse Learning Center</a>
+
+.. |CyVerse Wiki| raw:: html
+
+   <a href="https://wiki.cyverse.org" target="blank">CyVerse Wiki</a>
+
 
 .. Comment: images
 
@@ -99,6 +111,3 @@
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
-.. |intercom| image:: ./img/intercom.png
-    :width: 25
-    :height: 25
