@@ -111,3 +111,6 @@
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+.. |Intercom| image:: ./img/intercom.png
+    :width: 25
+    :height: 25
