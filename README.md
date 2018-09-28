@@ -1,4 +1,4 @@
-# Template CyVerse Guide Repo
+# Template CyVerse Manual Repo
 
 You should import this repo to build CyVerse Platform/Service Guides
 **See what this template looks like [rendered on ReadTheDocs](https://cyverse-cyverse-manual-template.readthedocs-hosted.com/en/latest/)**
