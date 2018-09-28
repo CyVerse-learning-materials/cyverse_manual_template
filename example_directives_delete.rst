@@ -9,16 +9,15 @@
 STYLE TIPS - DELETE THIS PAGE BEFORE PUBLISHING
 --------------------------------------------------
 
-    .. tip::
-
-         Check the code (.rst) source to see how these examples are written
-         in restructured text.
+  .. tip::
+       Check the code (.rst) source to see how these examples are written
+       in restructured text.
 
 
 .. #### Comment: short description
 
-Many of the examples Writing your documentation using sample data
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Writing your documentation using sample data
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Where possible, you want write documentation instructions to be general enough
 for users can follow along with their own data. To help do this, you can use

@@ -48,9 +48,8 @@ Introductory text
     * - Menu title
       - Function explanation
 
-.. admonition:: Helpful Tips
-
-    Helpful tip
+.. tip::
+          Helpful tips
 
 ----
 
@@ -82,9 +81,8 @@ Introductory text
     * - Menu title
       - Function explanation
 
-.. admonition:: Helpful Tips
-
-    Helpful tip
+.. tip::
+          Helpful tips
 
 
 ----
