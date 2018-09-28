@@ -1,3 +1,4 @@
+.. include:: cyverse_rst_defined_substitutions.txt
 |CyVerse logo|_
 
 |Home_Icon|_
@@ -21,6 +22,7 @@ Welcome to [Platform]!
 	[Platform] Major functionality n <step1.rst>
 	[Platform] Last major functionality <step2.rst>
 	[Platform] FAQs <faq.rst>
+	Delete this example guide page <example_directives_delete.rst>
 
 ..
 	#### Comment: This manual has multiple pages. The table of contents assumes
@@ -62,56 +64,6 @@ Welcome to [Platform]!
 
 ----
 
-[Platform] Release Notes
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. raw:: html
-    <html>
-    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-
-    <div class="container" style="width:100%;">
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">MMM YYYY v #.#.#</a>
-            </h4>
-          </div>
-          <div id="collapse1" class="panel-collapse collapse in">
-            <div class="panel-body">Release notes</div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">MMM YYYY v #.#.#</a>
-            </h4>
-          </div>
-          <div id="collapse2" class="panel-collapse collapse">
-            <div class="panel-body">Release notes</div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">MMM YYYY v #.#.#</a>
-            </h4>
-          </div>
-          <div id="collapse3" class="panel-collapse collapse">
-            <div class="panel-body">Release notes</div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    </body>
-    </html>
-
-----
-
 Prerequisites
 -------------
 
@@ -131,13 +83,13 @@ Downloads, access, and services
       - Link/Download
     * - CyVerse account
       - You will need a CyVerse account
-      - `Register <https://user.cyverse.org/>`_
+      - |CyVerse User Portal|
 
 ----
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_>`_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 - Live chat/help: Click on the |intercom| on the bottom-right of the page for questions on documentation
 
@@ -147,14 +99,35 @@ Downloads, access, and services
 
 `Learning Center Home <http://learning.cyverse.org/>`__
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
+
+.. Comment: Place Images Below This Line
+   use :width: to give a desired width for your image
+   use :height: to give a desired height for your image
+   replace the image name/location and URL if hyperlinked
+
+
+ .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
     :width: 500
     :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
-.. |Home_Icon| image:: ./img/homeicon.png
+ .. _CyVerse logo: http://learning.cyverse.org/
+
+ .. |Static image| image:: ./img/IMAGENAME.png
     :width: 25
     :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
-.. |intercom| image:: ./img/intercom.png
-    :width: 25
-    :height: 25
+
+
+
+.. Comment: Place URLS Below This Line
+
+   # Use this example to ensure that links open in new tabs, avoiding
+   # forcing users to leave the document, and making it easy to update links
+   # In a single place in this document
+
+   .. |Substitution| raw:: html # Place this anywhere in the text you want a hyperlink
+
+      <a href="REPLACE_THIS_WITH_URL" target="blank">Replace_with_text</a>
+
+
+.. |Github Repo Link|  raw:: html
+
+   <a href="FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX_FIX" target="blank">Github Repo Link</a>
