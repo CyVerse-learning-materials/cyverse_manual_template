@@ -126,7 +126,7 @@ some software.
 
 1. **Import** (not clone) the CyVerse base tutorial repo following GitHub's
    directions here: https://help.github.com/articles/importing-a-repository-with-github-importer/
-    - The CyVerse template tutorial repo URL is **https://github.com/CyVerse-learning-materials/cyverse_guide_template**
+    - The CyVerse manual template repo URL is **https://github.com/CyVerse-learning-materials/cyverse_manual_template.git**
     - Name your repo for the name of your quickstart or tutorial, e.g. *'name_tutorial'*
 2. Edit the **index.rst**. Save images or other files in the appropriate
    directories. **See our recommended style guide for writing documentation below.**
