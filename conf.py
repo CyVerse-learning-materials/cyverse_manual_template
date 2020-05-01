@@ -1,5 +1,5 @@
-# Version 2.0, May 2020
 #!/usr/bin/env python3
+# Version 2.0, May 2020
 # -*- coding: utf-8 -*-
 #
 # General information about the project.
