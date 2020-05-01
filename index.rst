@@ -1,8 +1,10 @@
 .. include:: cyverse_rst_defined_substitutions.txt
-|CyVerse logo|_
+
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
+
 
 **MANUAL NAME**
 =================
@@ -12,6 +14,24 @@
 Welcome to [Platform]!
 -----------------------
 .. #### Comment: If the platform has an ICON place it here
+
+----
+
+Manual Maintainer(s)
+------------------------
+
+Who to contact if this manual needs fixing. You can also email
+`Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+.. list-table::
+    :header-rows: 1
+
+    * - Maintainer
+      - Institution
+      - Contact
+    * - Your Name
+      - CyVerse / UA
+      - Yourname@email.com
 
 ----
 
@@ -33,6 +53,7 @@ Welcome to [Platform]!
 	as it has slightly different formatting to end the document.
 	Edit these titles and filenames as needed. Finally use 'faq.rst' to
 	create your list of Frequently Asked Questions. ####
+	
 ----
 
 .. #### Comment: Each platform should have a quick slide show or possibly video
@@ -89,9 +110,13 @@ Downloads, access, and services
 
 **Fix or improve this documentation**
 
-- On Github: |Github Repo Link|
+- Search for an answer:
+  |CyVerse Learning Center|
+- Ask us for help:
+  click |Intercom| on the lower right-hand side of the page
+- Report an issue or submit a change:
+  |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
-- Live chat/help: Click on the |intercom| on the bottom-right of the page for questions on documentation
 
 ----
 
