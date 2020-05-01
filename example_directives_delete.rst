@@ -1,6 +1,6 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|_
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -83,6 +83,42 @@ Where it adds clarity you can use this text to add buttons:
 
   2. Press :guilabel:`&Control` + :guilabel:`&P` to print your result
 
+
+
+Detail expand questions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You can have questions by using `.. admonition:: Question` and
+`.. admonition:: Answer`. Just make sure you pay attention to spacing as below.
+
+  .. admonition:: Question
+
+    1. Test your reader's knowledge with a question
+
+      .. admonition:: Answer
+
+        Give them an answer
+
+    2. Test your reader's knowledge with a question
+
+      .. admonition:: Answer
+
+        Give them an answer
+
+
+Embed video
+~~~~~~~~~~~~~~~
+
+You can embed responsive YouTube videos:
+
+ .. raw:: html
+
+  <div class="video-container">
+  <iframe width="560" height="315" align="center"
+  src="https://www.youtube.com/embed/XLBpway_jG8" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+  </div>
 
 URLs/Links
 ~~~~~~~~~~~
