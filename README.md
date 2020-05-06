@@ -4,7 +4,6 @@
 You should import this repo to build CyVerse Platform/Service Guides
 
 **See what this template looks like [rendered on ReadTheDocs](https://cyverse-cyverse-manual-template.readthedocs-hosted.com/en/latest/)**
-
 ## How CyVerse Learning Center documentation is built
 
 Each piece of CyVerse Learning Center has its own [ReadtheDocs](https://readthedocs.com/)
@@ -89,10 +88,30 @@ workflow are below **(see Building a Tutorial from Scratch)**.
    feedback before your request is merged.
 
 
-## Building Documentation from Scratch (local install)
+## Building Documentation from Scratch
 
-If you want to go beyond just creating a markdown file, you will need to install
-some software.
+**You will need the following accounts**
+
+1. GitHub account - makes it possible to collaborate on the documentation:
+    - https://github.com/
+
+### Obtaining the template
+
+1. Choose one of the template repositories at https://github.com/CyVerse-learning-materials/
+   (these are pinned at the top of this page). Click the **Use this template**
+   button. Name your repo for the name of your documentation e.g.
+   *'name_tutorial'*. You may choose public or private. There is no need to
+   include all branches (leave unchecked).
+
+2. Once you have a new repo made from the template, clone this new repo
+   to your local machine for editing.
+
+        $git clone MY-TUTORIAL
+
+### Authoring tools (local install)
+
+In order to build our documentation you can install the authoring tools or
+skip this section and use the Docker container we have built.
 
 **You will need the following software**
 
@@ -116,25 +135,7 @@ some software.
 4. git - We use git to version control our documentation and manage with GitHub
     - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
-**You will need the following accounts**
-
-1. GitHub account - makes it possible to collaborate on the documentation:
-    - https://github.com/
-
-### Obtaining the template
-
-1. Choose one of the template repositories at https://github.com/CyVerse-learning-materials/
-   (these are pinned at the top of this page). Click the **Use this template**
-   button. Name your repo for the name of your documentation e.g.
-   *'name_tutorial'*. You may choose public or private. There is no need to
-   include all branches (leave unchecked).
-
-2. Once you have a new repo made from the template, clone this new repo
-   to your local machine for editing.
-
-        $git clone MY-TUTORIAL
-
-### Editing the template
+#### Editing the template
 
 1. Edit the **index.rst** and other files as needed. Save images or other files
    in the appropriate directories. **See the recommended style guide in the template.**
@@ -170,22 +171,19 @@ some software.
 7. Commit your changes and push the tutorial back to GitHub.
 
 
-## Building Documentation from Scratch (Docker)
+### Authoring tools (Docker)
 
 For your convenience, all of the documentation software has been packed in
 a Docker container.
 
-1. Follow steps 1-2 from the "Obtaining and editing the template" section above.
-
-
-2. If needed, install Docker (See [Get Docker](https://docs.docker.com/get-docker/))
+1. If needed, install Docker (See [Get Docker](https://docs.docker.com/get-docker/))
    then pull the Docker image:
 
      ````
         $ docker pull jasonjwilliamsny/cyverse-learning-materials-tools:1.0
      ````
 
-3. Run the container interactively (`-it`). Map port 8000 inside the container to
+2. Run the container interactively (`-it`). Map port 8000 inside the container to
    port 8000 outside (`-p 8000:8000`) and use the volume command (`-v`) to
    mount the container to a directory of your choice. This directory should be
    the place where you cloned your repo in step 1 of this section.  You will
@@ -213,6 +211,8 @@ a Docker container.
       browser on your computer to see the preview. As you make changes
       to the documentation, the browser should automatically update within
       a few seconds of making the change.
+
+5. Follow the directions in the "Editing the template" section above.
 
 ## Wrapping up and hosting documentation in the Learning Center
 
