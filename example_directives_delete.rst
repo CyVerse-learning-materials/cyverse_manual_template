@@ -84,7 +84,7 @@ Where it adds clarity you can use this text to add buttons:
   2. Press :guilabel:`&Control` + :guilabel:`&P` to print your result
 
   3. Fix the |CyVerse_launch| link in `custom_url.txt` to use this button
-     to lauch a quicklaunch link in the DE (the embed HTML the DE generates may
+     to launch a quicklaunch link in the DE (the embed HTML the DE generates may
      not render properly in RTD)
 
 Detail expand questions
