@@ -2,7 +2,7 @@
 .. Comment: URLS
 
 
-..Comment: Fix this link if you are using a quicklaunch button
+.. Comment: Fix this link if you are using a quicklaunch button
 
 .. |CyVerse_launch| image:: ./img/Powered-By-CyVerse-blue.png
     :width: 125

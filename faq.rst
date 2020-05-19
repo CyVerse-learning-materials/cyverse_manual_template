@@ -1,4 +1,5 @@
 .. include:: cyverse_rst_defined_substitutions.txt
+.. include:: custom_urls.txt
 
 |CyVerse_logo|_
 

@@ -1,4 +1,5 @@
 .. include:: cyverse_rst_defined_substitutions.txt
+.. include:: custom_urls.txt
 
 |CyVerse_logo|_
 
@@ -53,7 +54,7 @@ Who to contact if this manual needs fixing. You can also email
 	as it has slightly different formatting to end the document.
 	Edit these titles and filenames as needed. Finally use 'faq.rst' to
 	create your list of Frequently Asked Questions. ####
-	
+
 ----
 
 .. #### Comment: Each platform should have a quick slide show or possibly video
