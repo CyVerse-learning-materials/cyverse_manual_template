@@ -19,30 +19,35 @@ workflow are below **(see Building a Tutorial from Scratch)**.
 
 ## Documentation types
 
+- **Manuals -** A Manual is a more comprehensive documentation piece on a CyVerse
+  platform or software product.
+   - Written by: CyVerse Staff, with community contributions welcome
+- **Platform Guide -** A Platform Guide is a slightly modified form of tutorial
+  that covers an entire platform or service.
+   - Written by: CyVerse Staff, with community contributions welcome
+- **Quick Starts -** These materials are short tutorials that cover the minimal
+  amount of information needed to complete an **operational task** (e.g.
+  uploading data, reformatting a file, etc. ); there is no significant
+  explanation of the science or interpretation of results. Quick Starts highlight
+  available resources, answer common questions,
+  and refer users to the most appropriate materials.
+   - Written by: CyVerse Staff or community members
 - **Tutorials -** Tutorials teach. Users should be able to follow an example
   dataset through the steps of a tutorial and gain understanding about what is
   happening along those steps. These are in-depth guides that usually address a
   scientific question by covering the major steps of a scientific workflow.
   A tutorial is ‘successful’ when a user is able to follow the tutorial a
   second time with their own data and obtain reasonable results.
-- **Platform Guide -** A Platform Guide is a slightly modified form of tutorial
-  that covers an entire platform or service.
-- **Quick Starts -** These materials are short tutorials that cover the minimal
-  amount of information needed to complete an **operational task** (e.g.
-  uploading data, reformatting a file, etc. ); there is no significant
-  explanation of the science or interpretation of results. Quick Starts highlight
-  available resources, answer common questions (derived from user forum),
-  and refer users to the most appropriate materials.
-- **Manuals -** A Manual is a more comprehensive documentation piece on a CyVerse
-  platform or software product.
+  - Written by: CyVerse Staff or community members
 
 **Examples of when to use what type of template:**
 
 - Uploading a file: Quick Start
 - Cleaning FastQ reads: Quick Start
-- Uploading files to SRA: Could be both
-- Assembling a transcriptome: Tutorial
-- An intro to the Discovery Environment: Guide
+- Basic introduction to an app: Quick Start
+- Assembling a transcriptome using multiple apps and explaining the science: Tutorial
+- An intro to the Discovery Environment: Platform Guide
+- Comprehensive listing of all the basic functionalities of Discovery Environment: Manual
 
 
 ## What this repo contains
@@ -130,7 +135,7 @@ skip this section and use the Docker container we have built.
    [learning-center-2.0-release](https://github.com/CyVerse-learning-materials/learning-center-2.0-release)
    repo (see `/readthedocstools` in that repo).
 
-        $ pip install -r /readthedocstools/minimal_requirements.txt
+        $ pip3 install -r /readthedocstools/minimal_requirements.txt
 
 4. git - We use git to version control our documentation and manage with GitHub
     - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
