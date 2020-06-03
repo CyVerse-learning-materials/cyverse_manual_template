@@ -28,6 +28,7 @@ items.
 - [ ] All `.rst` pages begin with the following
     ````
     .. include:: cyverse_rst_defined_substitutions.txt
+    .. include:: custom_urls.txt
 
      |CyVerse_logo|_
 
@@ -84,3 +85,5 @@ items.
 
 - [ ] Maintainer is assigned and has approved the content
 - [ ] Editor has checked for quality (spelling, formatting, etc.)
+- [ ] Sample/test data is available with anonymous/public read access
+      in the appropriate directory at `/iplant/home/shared/cyverse_training`

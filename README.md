@@ -200,7 +200,7 @@ a Docker container.
      ````
 4. From inside the Docker container bash terminal, navigate to the
    mounted directory (e.g. `DOCKERDOCUMENTATION`). You should see your cloned
-   respository there. You can now follow the steps in the
+   repository there. You can now follow the steps in the
    `Obtaining the template` section with the following modifications:
 
    - To preview your documentation, from **inside the docker container** use the
@@ -257,3 +257,24 @@ documentation are available and open.
 |Top-level menus in Discovery Environment Apps in double quotes|<ul><li>Under "Input" select...</ul>|
 |Subheadings/steps in Discovery Environment Apps in single quotes|<ul><li>For 'sensitivity' enter...</ul>|
 |Buttons and keywords in bold|<ul><li>Click on **Apps**<li>Select **Arabidopsis**<li>Set 'sensitivity' to **Medium**</ul>|
+
+## Sample and test data for Learning Center materials
+
+**ALL** materials with sample or test data on the Learning Center should be  
+available with anonymous/public read access at /iplant/home/shared/cyverse_training
+
+````
+/iplant/home/shared/cyverse_training:
+  C- /iplant/home/shared/cyverse_training/classrooms
+  C- /iplant/home/shared/cyverse_training/cyverse_austria_training
+  C- /iplant/home/shared/cyverse_training/datasets
+  C- /iplant/home/shared/cyverse_training/example
+  C- /iplant/home/shared/cyverse_training/manuals
+  C- /iplant/home/shared/cyverse_training/platform_guides
+  C- /iplant/home/shared/cyverse_training/quickstarts
+  C- /iplant/home/shared/cyverse_training/tutorials
+  C- /iplant/home/shared/cyverse_training/workshop_materials
+````
+
+In general, data should be in the appropriate `manuals`,`platform_guides`,
+`quickstarts`, `tutorials`, or `workshop_materials` folders. 
