@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="CyVerse Science Team">
+  <link rel="canonical" href="https://cyverse-learning-materials.github.io/cyverse_manual_template/example_directives_delete/">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Example directives delete - CyVerse Learning Center</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Example directives delete";
+    var mkdocs_page_input_path = "example_directives_delete.md";
+    var mkdocs_page_url = "/cyverse_manual_template/example_directives_delete/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> CyVerse Learning Center</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step1/">step1</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../step2/">step2</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../faq/">FAQ</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">CyVerse Learning Center</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Example directives delete</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/cyverse-learning-materials/cyverse_manual_template/edit/main/docs/example_directives_delete.md"> Edit on cyverse-learning-materials/cyverse_manual_template</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+
+          <div role="main">
+            <div class="section">
+              
+                <p><a href="https://learning.cyverse.org"><img alt="!CyVerse Learning Center" src="https://github.com/cyverse-learning-materials/cyverse_manual_template/raw/main/assets/cyverse_learning.png" title="CyVerse Learning Center" width="400" /></a></p>
+<p><a href="https://learning.cyverse.org"><img alt="!Learning Home" src="https://github.com/cyverse-learning-materials/cyverse_manual_template/raw/main/assets/homeicon.png" title="Home" width="25" /></a> <a href="http://learning.cyverse.org/">Learning Center Home</a></p>
+<h1 id="style-tips-delete-this-page-before-publishing">STYLE TIPS - DELETE THIS PAGE BEFORE PUBLISHING<a class="headerlink" href="#style-tips-delete-this-page-before-publishing" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p>::: {.tip}
+::: {.admonition-title}
+Tip
+:::</p>
+<p>Check the code (.rst) source to see how these examples are written in
+restructured text.
+:::</p>
+</blockquote>
+<h2 id="many-of-the-examples-writing-your-documentation-using-sample-data">Many of the examples Writing your documentation using sample data<a class="headerlink" href="#many-of-the-examples-writing-your-documentation-using-sample-data" title="Permanent link">&para;</a></h2>
+<p>Where possible, you want write documentation instructions to be general
+enough for users can follow along with their own data. To help do this,
+you can use the <strong>sample data admonition</strong> to intersperse sample
+data-specific instructions into your generic instructions.</p>
+<p>To do this, start your documentation with a description and where
+possible, a citation of the data:</p>
+<blockquote>
+<p>::: {.admonition}
+Sample data</p>
+<p><strong>How to use provided sample data</strong></p>
+<p>In this guide, we will use an RNA-Seq dataset (<em>\"Zika infected
+hNPCs\"</em>). This experiment compared human neuroprogenetor cells
+(hNPCs) infected with the Zika virus to non-infected hNPCs. You can
+read more about the experimental conditions and methods
+<a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175744">here</a>.
+Where appropriate, a note (in this orange colored background) in the
+instructions will indicate which options to select to make use of this
+provided dataset.</p>
+<p><strong>Sample data citation</strong>: Yi L, Pimentel H, Pachter L (2017) Zika
+infection of neural progenitor cells perturbs transcription in
+neurodevelopmental pathways. PLOS ONE 12(4): e0175744.
+<a href="https://doi.org/10.1371/journal.pone.0175744">10.1371/journal.pone.0175744</a>
+:::</p>
+</blockquote>
+<p>Then, as you have instructions, intersperse the sample data ..
+admonition</p>
+<blockquote>
+<ol>
+<li>
+<p>First, enter the cutoff value for your dataset</p>
+<blockquote>
+<p>::: {.admonition}
+Sample data</p>
+<p><em>\"Zika infected hNPCs\"</em> dataset:</p>
+<p>Enter <strong>30</strong>
+:::</p>
+</blockquote>
+</li>
+<li>
+<p>Continue with next step...</p>
+</li>
+</ol>
+</blockquote>
+<h2 id="other-admonitions">Other admonitions<a class="headerlink" href="#other-admonitions" title="Permanent link">&para;</a></h2>
+<p>There are several admonitions you can use, but tip and warning are the
+most common for our documentation.</p>
+<blockquote>
+<p>::: {.tip}
+::: {.admonition-title}
+Tip
+:::</p>
+<p>If you don\'t see a desired species/genome <a href="https://dnasubway.cyverse.org/feedback.html">contact
+us</a> to have it added
+:::</p>
+<p>::: {.warning}
+::: {.admonition-title}
+Warning
+:::</p>
+<p>When naming your samples and conditions, avoid spaces and special
+characters (e.g. !#$%^&amp;/, etc.). Also be sure to be consistent with
+spelling.
+:::</p>
+</blockquote>
+<h2 id="buttons-and-keyboard-combinations">Buttons and keyboard combinations<a class="headerlink" href="#buttons-and-keyboard-combinations" title="Permanent link">&para;</a></h2>
+<p>Where it adds clarity you can use this text to add buttons:</p>
+<blockquote>
+<ol>
+<li>Click <code class="interpreted-text" role="guilabel">&amp;Cancel</code> to continue</li>
+<li>Press <code class="interpreted-text" role="guilabel">&amp;Control</code> +
+    <code class="interpreted-text" role="guilabel">&amp;P</code> to print your result</li>
+<li>Fix the link in [custom_url.txt]{.title-ref} to use this button
+    to launch a quicklaunch link in the DE (the embed HTML the DE
+    generates may not render properly in RTD)</li>
+</ol>
+</blockquote>
+<h2 id="detail-expand-questions">Detail expand questions<a class="headerlink" href="#detail-expand-questions" title="Permanent link">&para;</a></h2>
+<p>You can have questions by using [.. admonition:: Question]{.title-ref}
+and [.. admonition:: Answer]{.title-ref}. Just make sure you pay
+attention to spacing as below.</p>
+<blockquote>
+<p>::: {.admonition}
+Question</p>
+<ol>
+<li>Test your reader\'s knowledge with a question</li>
+</ol>
+<blockquote>
+<p>::: {.admonition}
+Answer</p>
+<p>Give them an answer
+:::</p>
+</blockquote>
+<ol>
+<li>Test your reader\'s knowledge with a question</li>
+</ol>
+<blockquote>
+<p>::: {.admonition}
+Answer</p>
+<p>Give them an answer
+:::
+:::</p>
+</blockquote>
+</blockquote>
+<h2 id="embed-video">Embed video<a class="headerlink" href="#embed-video" title="Permanent link">&para;</a></h2>
+<p>You can embed responsive YouTube videos:</p>
+<blockquote>
+<p><div class="video-container">
+<iframe width="560" height="315" align="center"
+src="https://www.youtube.com/embed/XLBpway_jG8" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+</div></p>
+</blockquote>
+<h2 id="urlslinks">URLs/Links<a class="headerlink" href="#urlslinks" title="Permanent link">&para;</a></h2>
+<p>Have hyperlinks open in a new tab to avoid pushing the reader off the
+documentation page. Always use substitutions. Best practice is to define
+your substitutions in the <strong>cyverse_rst_defined_substitutions.txt</strong>
+file in this repo for easy future updating.</p>
+<p>Bad link ...</p>
+<p><a href="https://www.google.com/">bad google</a></p>
+<p>Good link ...</p>
+<p>Even better link (because it is defined in a separate file)</p>
+<h2 id="images">Images<a class="headerlink" href="#images" title="Permanent link">&para;</a></h2>
+<p>Images should only be used when necessary.</p>
+<p>Choose an image size that works for your page:</p>
+<blockquote>
+<p><img alt="Too big kitten" src="./img/kitten_no_border.png" /></p>
+</blockquote>
+<p>Better size:</p>
+<blockquote>
+<p><img alt="Right-size kitten" src="./img/kitten_no_border.png" />{width="400px"
+height="350px"}</p>
+</blockquote>
+<p>Images should have a 1px black border:</p>
+<blockquote>
+<p><img alt="Right-size kitten w border" src="./img/kitten_w_border.png" />{width="400px"
+height="350px"}</p>
+</blockquote>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Copyright &copy; 2022 CyVerse</p>
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
