@@ -1,0 +1,103 @@
+# CyVerse Learning Materials Release 2.1
+docs_dir: docs/
+repo_name: 'cyverse-learning-materials/cyverse_manual_template'
+repo_url: 'https://github.com/cyverse-learning-materials/cyverse_manual_template'
+
+site_name: 'CyVerse Learning Center'
+site_description: 'Documentation for CyVerse Platforms and Education'
+site_author: 'CyVerse Science Team'
+site_url: https://cyverse-learning-materials.github.io/cyverse_manual_template/
+
+edit_uri: edit/main/docs
+
+# Copyright
+copyright: 'Copyright &copy; 2022 CyVerse'
+
+# Navigation Page
+nav:
+  - Home: index.md
+  - step1: step1.md
+  - step2: step2.md
+  - FAQ: faq.md
+
+# Set theme to `readthedocs`
+# must also set Action to use `@nomaterial` branch instead of `@master` for material
+theme:
+  name: readthedocs
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Montserrat
+    code: Regular
+  favicon: assets/favicon.png
+  icon:
+    logo: material/rocket
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/
+    - icon: fontawesome/brands/github
+      link: https://github.com/cyverse-learning-materials/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/cyverseorg
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/cyverse.org
+    - icon: fontawesome/brands/docker
+      link: https://harbor.cyverse.org/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/CyverseOrgProject
+#  analytics:
+#    provider: google
+#    property: 
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde

@@ -1,21 +1,19 @@
 # Template CyVerse Manual Repo
-**README Version 2.0, May 2020**
+**README Version 2.1, January 2022**
 
 You should import this repo to build CyVerse Platform/Service Guides
 
-**See what this template looks like [rendered on ReadTheDocs](https://cyverse-cyverse-manual-template.readthedocs-hosted.com/en/latest/)**
+**See what this template looks like [rendered as ReadTheDocs](https://cyverse-learning-materials.github.io/cyverse_manual_template)**
 ## How CyVerse Learning Center documentation is built
 
 Each piece of CyVerse Learning Center has its own [ReadtheDocs](https://readthedocs.com/)
 page which in turn is built from its own GitHub repo (see the template repos at [https://github.com/CyVerse-learning-materials](https://github.com/CyVerse-learning-materials)).
-Starting from a
-[ResStructured text file](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html)
-(index.rst) The documentation is built using
-[Sphinx](http://www.sphinx-doc.org/en/1.4.8/),
-and hosted on a repo configured with GitHub
-[Webhooks/Services](http://docs.readthedocs.io/en/latest/webhooks.html).
-Finally, the site is added to the CyVerse ReadtheDocs account. Directions for completing this
-workflow are below **(see Building a Tutorial from Scratch)**.
+
+Starting from MkDocs and Mark Down syntax, we are rendering the web pages using GitHub Actions.
+
+Finally, the site is added to CyVerse's [`https://learning.cyverse.org`](https://learning.cyverse.org) Domain Name Service (DNS). 
+
+Directions for completing this workflow are below **(see Building Documentation from Scratch)**.
 
 ## Documentation types
 
@@ -49,24 +47,18 @@ workflow are below **(see Building a Tutorial from Scratch)**.
 - An intro to the Discovery Environment: Platform Guide
 - Comprehensive listing of all the basic functionalities of Discovery Environment: Manual
 
-
 ## What this repo contains
 
 |Item|Description|Notes|
 |----|-----------|-----|
-|`index.rst`|This is the homepage of your documentation. It list the title and goal of the documentation, lists a maintainer, and usually indicates what prerequisite platforms, files, and services are needed to complete the tutorial||
-|`step1.rst`|If documentation has more than one page, use this for the second and subsequent pages|Copy as needed for additional pages|
-|`/img`|Place images for your tutorials here|CyVerse logos and other useful images are already here|
-|`example_directives_delete.rst`|Example page with code for common restructured text objects|**Delete** this page before publishing your materials|
-|`cyverse_rst_defined_substitutions.txt`|Restructured text substitutions for common URLs and images||
-|`custom_urls.txt`|Place URLs particular to your repository here in a single page, suing restructured text substitutions to create hyperlinks|Be sure any documentation page referring to this one has the directive `.. include:: custom_urls.txt` |
-|`conf.py` and `/misc/cyverse_sphinx_conf.py`|Edit the tutorial and author name; versioning||
+|`docs/index.md`|This is the homepage of your documentation. It list the title and goal of the documentation, lists a maintainer, and usually indicates what prerequisite platforms, files, and services are needed to complete the tutorial||
+|`docs/step1.md`|If documentation has more than one page, use this for the second and subsequent pages|Copy as needed for additional pages|
+|`assets/`|Place images for your tutorials here|CyVerse logos and other useful images are already here|
+|`docs/example_directives_delete.md`|Example page with code for common restructured text objects|**Delete** this page before publishing your materials|
 |README.md|These instructions|**Delete** before publishing your documentation|
-|`/slides`|Place slides associated with your tutorial here|Version controlled files preferred, PPT acceptable|
-|`/misc`|Miscellaneous needed for building documentation| |
-|`License.md`|License|This license file applies to all materials created by CyVerse for this documentation|
-
-
+|`slides/`|Place slides associated with your tutorial here|Version controlled files preferred, PPT acceptable|
+|`misc/`|Miscellaneous needed for building documentation| |
+|`LICENSE`|License|This license file applies to all materials created by CyVerse for this documentation|
 
 ## Simple contribution instructions
 
@@ -95,10 +87,10 @@ workflow are below **(see Building a Tutorial from Scratch)**.
 
 ## Building Documentation from Scratch
 
-**You will need the following accounts**
+**You will need the following**
 
-1. GitHub account - makes it possible to collaborate on the documentation:
-    - https://github.com/
+1. [GitHub account](https://github.com/) - makes it possible to collaborate on the documentation.
+2. (*Optional*) access to GitHub [CodeSpaces](https://github.com/codespaces) - to work in a VS Code development environment on the repository.
 
 ### Obtaining the template
 
@@ -108,116 +100,98 @@ workflow are below **(see Building a Tutorial from Scratch)**.
    *'name_tutorial'*. You may choose public or private. There is no need to
    include all branches (leave unchecked).
 
-2. Once you have a new repo made from the template, clone this new repo
-   to your local machine for editing.
+   - (*Optional*) Once you have a new repo made from the template, clone this new repo to your local machine for editing locally.
 
-        $git clone MY-TUTORIAL
+   - (*Optional*) Open the new repository in CodeSpaces and work in VS Code development environment. You must commit your changes back to GitHub.
 
-### Authoring tools (local install)
+### Authoring tools (on GitHub or CodeSpaces)
 
-In order to build our documentation you can install the authoring tools or
-skip this section and use the Docker container we have built.
+In order to build our documentation you can keep the repository in your personal GitHub user space and allow the `.github/workflows/main.yml` Action to render the pages using `gh-pages`
 
-**You will need the following software**
+1. Clone the repository to your username space.
 
-1. Python (3.7 or later) - This is required for the Sphinx package that will
-   build our documentation:
-    - https://www.python.org/downloads/
-2. If needed, install pip:
-    - https://packaging.python.org/installing/#install-pip-setuptools-and-wheel
-3. Sphinx - This will build our tutorials into HTML and other formats (this uses
-   the Python package installer 'pip' so Python must be installed first); we
-   will also install the theme we need for our documentation
+2. Click on `Settings` > `Pages` > `Source` in GitHub.
+   - Under `Source` select the `Branch:gh-pages` and leave the file directory as `root`
+   - Save and Exit
 
-   **Note** You can use the [`minimal_requirements.txt`](https://raw.githubusercontent.com/CyVerse-learning-materials/learning-center-2.0-release/master/readthedocstools/minimal_requirements.txt) in /readthedocstools to
-   install these requirements. If you run into problems try this with
-   the whole [`requirements.txt`](https://raw.githubusercontent.com/CyVerse-learning-materials/learning-center-2.0-release/master/readthedocstools/requirements.txt) - both of which are in the
-   [learning-center-2.0-release](https://github.com/CyVerse-learning-materials/learning-center-2.0-release)
-   repo (see `/readthedocstools` in that repo).
+![screenshot](assets/gh-pages.png)
 
-        $ pip3 install -r /readthedocstools/minimal_requirements.txt
+3. Check the GitHub Action
+   - in the `.github/workflows/` folder there is a `main.yml`
+   - We are using a basic action from user [mhausenblas/mkdocs-deploy-gh-pages](https://github.com/mhausenblas/mkdocs-deploy-gh-pages) which renders the ReadTheDocs theme for MkDocs using the `@nomaterial` branch.
 
-4. git - We use git to version control our documentation and manage with GitHub
-    - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+      ```
+      name: Publish docs via GitHub Pages
+      on:
+      push:
+         branches:
+            - main
 
-#### Editing the template
+      jobs:
+      build:
+         name: Deploy docs
+         runs-on: ubuntu-latest
+         steps:
+            - name: Checkout main
+            uses: actions/checkout@v1
 
-1. Edit the **index.rst** and other files as needed. Save images or other files
-   in the appropriate directories. **See the recommended style guide in the template.**
+            - name: Deploy docs
+            uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
+            env:
+               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ```
 
-2. Since tutorials will likely span multiple pages, you can copy internal pages
-   page as many times as needed. Update the table of contents at the top of the
-   'index.rst' accordingly. We will have **only documentation piece per repo.**
+4. Edit the [`mkdocs.yml`](mkdocs.yml) metadata to match your new repository.
+   - On the first few lines you will need to update the `repo_name:` to use your GitHub username and new repository name, the `repo_url:` to use your `github.io` page or other DNS. Do not change the `docs_dir:` unless you plan to move the `.md` files.
+
+   ```
+   docs_dir: docs/
+   repo_name: 'cyverse-learning-materials/cyverse-manual-template-mkdocs'
+   repo_url: 'https://github.com/cyverse-learning-materials/cyverse-manual-template'
+   ```
+   - You also need to update the `site_name:`, `site_description:`, `site_author:`, and `site_url:` to match your new repository
+   
+   ```
+   site_name: 'CyVerse Learning Center'
+   site_description: 'Documentation for CyVerse Platforms and Education'
+   site_author: 'CyVerse Science Team'
+   site_url: https://cyverse-learning-materials.github.io/cyverse-manual-template/
+   ```
+
+   ---
+   **NOTE**
+
+   [MkDocs-Material](https://squidfunk.github.io/mkdocs-material/) theme uses the `@master` branch of this Action. To render as the MkDocs-Material theme:
+   - change [`./github/workflows/main.yml`](.github/workflows/main.yml) to use `@material` branch
+   - change the [`mkdocs.yml`](mkdocs.yml) to use `theme: material`   
+   ---
+
+5. Update the Navigation Bar in the [`mkdocs.yml`](mkdocs.yml)
+   - The markdown pages in the `docs/` folder are rendered in the table of contents given their hierarchy in the `nav:` with the left side set as the description.
+
+   ```
+   # Navigation Page
+   nav:
+   - Home: index.md
+   - step1: step1.md
+   - step2: step2.md
+   - FAQ: faq.md
+   ```
+
+### Editing the template
+
+1. Edit the [`index.md`](docs/index.md) and other files as needed. Save images or other files in the appropriate directories. **See the recommended style guide in the template.**
+
+2. Since tutorials will likely span multiple pages, you can copy internal pages page as many times as needed. Update the table of contents at the top of the 'index.md' accordingly. We will have **only documentation piece per repo.**
 
 3. Save your work such as:
-    - individual pages (e.g. `index.rst`, `step2.rst`)
-    - images (as `.png` files in the  the `/img` folder)
-    - changes or additions to `cyverse_rst_defined_substitutions.txt` and
-      `custom_urls.txt`
+    - individual pages (e.g. `index.md`, `step2.md`, etc.)
+    - images (as `.png` files in the  the `/assets` folder)
 
-4. Edit the `conf.py` and `/misc/cyverse_sphinx_conf.py` files to set the
-   project and author information
+4. Commit your changes and push the tutorial back to GitHub.
 
-5. Build the tutorial:
+5. The tutorial will build automatically with the Action and will be visible on your webpage `https://your_username.github.io/template_mkdocs_repo/`  
 
-     ````
-        $ make html
-     ````
-    Alternatively you can make an automatically building previewing using this
-    command
-
-      ````
-         $ sphinx-autobuild -b html --host 0.0.0.0 --port 8000 --poll . _build_html
-      ````
-
-6. Your HTML site will be in the `_build_html` or `_build` directory that has
-   been created (you can preview this in your web browser at this time).
-
-7. Commit your changes and push the tutorial back to GitHub.
-
-
-### Authoring tools (Docker)
-
-For your convenience, all of the documentation software has been packed in
-a Docker container.
-
-1. If needed, install Docker (See [Get Docker](https://docs.docker.com/get-docker/))
-   then pull the Docker image:
-
-     ````
-        $ docker pull jasonjwilliamsny/cyverse-learning-materials-tools:1.0
-     ````
-
-2. Run the container interactively (`-it`). Map port 8000 inside the container to
-   port 8000 outside (`-p 8000:8000`) and use the volume command (`-v`) to
-   mount the container to a directory of your choice. This directory should be
-   the place where you cloned your repo in step 1 of this section.  You will
-   need to be able to open files using a web browser and use a text editor to
-   edit files.
-
-     ````
-        $ docker run -it -p 8000:8000 -v LOCALDIRECTORY:/DOCKERDOCUMENTATION jasonjwilliamsny/cyverse-learning-materials-tools:1.0
-     ````
-4. From inside the Docker container bash terminal, navigate to the
-   mounted directory (e.g. `DOCKERDOCUMENTATION`). You should see your cloned
-   repository there. You can now follow the steps in the
-   `Obtaining the template` section with the following modifications:
-
-   - To preview your documentation, from **inside the docker container** use the
-     following command to view build and preview your documentation. **NOTE**
-     this command will only work if you are in the same directory as your
-     documentation repository and you are **inside the docker container shell**.
-
-     ````
-         $ sphinx-autobuild -b html --host 0.0.0.0 --port 8000 --poll . _build_html
-     ````
-
-      You documentation should be served at http://0.0.0.0:8000. Open a web
-      browser on your computer to see the preview. As you make changes
-      to the documentation, the browser should automatically update within
-      a few seconds of making the change.
-
-5. Follow the directions in the "Editing the template" section above.
 
 ## Wrapping up and hosting documentation in the Learning Center
 
